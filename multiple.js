@@ -25,7 +25,9 @@ const mySalary = 20000;
 const myGPA = 3.55;
 const myHeight = 52;
 const isBCS = true;
-if (myAge < 25 && mySalary < 17000 && isBCS == true) {
+const hasCar = false;
+
+if ((myAge < 23 && hasCar == false) || isBCS == true) {
   console.log("i am a good");
 } else {
   console.log("i am a bad");
