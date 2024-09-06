@@ -1,15 +1,15 @@
-// multilevel condition
+multilevel condition
 
-// const price = 9000;
-// if (price >= 5000) {
-//   // 10% discount
-//   const discount = (price * 10) / 100;
-//   const payAmount = price - discount;
-//   console.log(discount);
-//   console.log(payAmount);
-// } else {
-//   console.log(price);
-// }
+const price = 9000;
+if (price >= 5000) {
+  // 10% discount
+  const discount = (price * 10) / 100;
+  const payAmount = price - discount;
+  console.log(discount);
+  console.log(payAmount);
+} else {
+  console.log(price);
+}
 
 const priceShoe = 4400;
 
